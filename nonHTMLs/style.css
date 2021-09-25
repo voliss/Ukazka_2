@@ -1,0 +1,533 @@
+* {
+  transition: 0.3s;
+}
+
+body {
+  margin: 0%;
+  background: rgb(66, 66, 66);
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+}
+
+.backie {
+  position: relative;
+}
+
+.back {
+  opacity: 0.8;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('Images/background.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+header {
+  background-image: url('Images/headerImage.jpg');
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+footer {
+  width: auto;
+  height: 15vh;
+  background: rgba(0, 0, 0);
+  position: relative;
+}
+
+#logoSocial {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#facebook {
+  height: 2%;
+  width: 5%;
+  margin: 2%;
+}
+
+.logoMedia:hover {
+  background-color: #f5f5dcb3;
+  border-radius: 10px;
+}
+
+#instagram {
+  height: 2%;
+  width: 5%;
+  margin: 2%;
+}
+
+#twitter {
+  height: 2%;
+  width: 5%;
+  margin: 2%;
+}
+
+.btn {
+  border: 1px solid rgba(245, 245, 220, 0);
+  padding: 1%;
+  border-radius: 0%;
+  text-decoration: none;
+  color: beige;
+}
+
+.btn:hover {
+  color: #ff9700;
+  border-top: 1px solid rgba(245, 245, 220, 0.8);
+  border-bottom: 1px solid rgba(245, 245, 220, 0.8);
+}
+
+.logoHeader {
+  height: 25vh;
+  border-radius: 40%;
+  border: 1px solid black;
+}
+
+.logoHeader:hover {
+  height: 30vh;
+  background-color: beige;
+  border: none;
+  border-radius: 45%;
+  opacity: 0.8;
+}
+
+.navMenu {
+  margin: 0;
+  padding: 2%;
+  background-color: rgba(0, 0, 0);
+  border-radius: 0%;
+  position: relative;
+}
+
+.buttonNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonNav a {
+  font-size: 1.4em;
+}
+
+/* Content for The HOME Page */
+
+#clB {
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#cl {
+  font-size: 6rem;
+  color: #ff9700;
+  padding: 1%;
+  font-weight: bold;
+  border-top: 10px solid #ff9700;
+  border-bottom: 10px solid #ff9700;
+  text-shadow: #000000 3px 4px 9px;
+}
+
+.firstElementHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  margin: 10%;
+  position: relative;
+}
+
+.resumeResto {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  width: 55%;
+  height: auto;
+  padding: 4%;
+  font-size: larger;
+}
+
+#nadpisResume {
+  color: #ff9700;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 2.2em;
+}
+
+#imageHome1 {
+  height: 100%;
+  width: 25vw;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.secondElementHome {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10%;
+  margin-bottom: 0px;
+  color: white;
+  position: relative;
+}
+
+#imageBottomHome {
+  height: 20%;
+  width: 60%;
+  border-radius: 5px;
+  margin-bottom: 7rem;
+}
+
+.bookNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 35%;
+  margin-bottom: 7rem;
+  height: 20rem;
+}
+
+#bookNow {
+  font-size: 2em;
+  padding: 25%;
+  border: 1px solid rgba(245, 245, 220, 0);
+  text-align: center;
+}
+
+#bookNow:hover {
+  color: #ff9700;
+  border-top: 1px solid rgba(245, 245, 220, 0.8);
+  border-bottom: 1px solid rgba(245, 245, 220, 0.8);
+  cursor: pointer;
+}
+
+/* Content for The MENU Page */
+
+#menuRestaurant {
+  height: auto;
+  width: 70%;
+  margin: auto;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  padding: 4%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.navbar {
+  display: block;
+  margin-bottom: 10%;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #007bff;
+  background-color: rgba(245, 245, 220, 0);
+}
+
+.bg-light {
+  background-color: rgba(245, 245, 220, 0) !important;
+}
+
+#nadpisMenu {
+  color: #ff9700;
+  font-weight: bold;
+  width: 100%;
+  font-size: 4em;
+}
+
+#itemMenu {
+  color: beige;
+  border: 1px solid rgba(245, 245, 220, 0);
+  border-radius: 0%;
+  font-size: 1.7em;
+}
+
+#itemMenu:hover {
+  text-decoration: none;
+  color: #ff9700;
+  border-left: 1px solid rgba(245, 245, 220, 0.8);
+  border-right: 1px solid rgba(245, 245, 220, 0.8);
+}
+
+.foodContent {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #ff9700;
+  font-size: 3em;
+}
+
+h6 {
+  margin-bottom: 3%;
+  font-size: 1.3em;
+}
+
+.food {
+  margin-bottom: 0%;
+  font-size: 1.3em;
+}
+
+.drinks {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.drink {
+  font-size: 1.3em;
+}
+
+#item-6 {
+  margin-bottom: 4%;
+}
+
+.badge-success {
+  color: beige;
+  background-color: #28a74500;
+  border-left: 1px solid #ff9700;
+  border-radius: 0%;
+}
+
+/* Content for The PICTURES Page */
+
+#carousRestaurant {
+  height: auto;
+  width: 50%;
+  margin: auto;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-inner {
+  margin-bottom: 2%;
+}
+
+#nadpisCarous {
+  color: #ff9700;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+
+/*/// RESPONSIVITY ///*/
+
+@media screen and (max-width: 1500px) {
+  .firstElementHome {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #imageHome1 {
+    display: none;
+  }
+
+  .secondElementHome {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .resumeResto {
+    font-size: large;
+  }
+
+  #nadpisResume {
+    font-size: 2em;
+  }
+
+  #imageBottomHome {
+    width: 80%;
+  }
+
+  .bookNow {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #cl {
+    font-size: 4em;
+  }
+
+  .resumeResto {
+    font-size: medium;
+    width: 90%;
+  }
+
+  #nadpisResume {
+    font-size: 1.7em;
+  }
+
+  #imageBottomHome {
+    width: 90%;
+  }
+
+  .bookNow {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #logoSocial {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #cl {
+    font-size: 3em;
+  }
+
+  .buttonNav a {
+    font-size: 1.1em;
+  }
+
+  .secondElementHome {
+    margin: 0;
+  }
+
+  .bookNow {
+    height: 10rem;
+  }
+
+  #logoSocial {
+    justify-content: center;
+  }
+
+  #logoSocial img {
+    width: 2.5rem;
+  }
+
+  #facebook,
+  #instagram,
+  #twitter {
+    margin: 10%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #nadpisResume {
+    font-size: 1.4em;
+  }
+
+  .resumeResto {
+    font-size: small;
+    width: 100%;
+  }
+
+  #bookNow {
+    font-size: 1.5em;
+  }
+}
+
+/* /// RESPONSIVITY MENU /// */
+@media screen and (max-width: 1100px) {
+  #nadpisMenu {
+    font-size: 3em;
+  }
+
+  #itemMenu {
+    font-size: 1.4em;
+  }
+
+  .foodContent {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .food,
+  .drink,
+  h6 {
+    font-size: 1.1em;
+  }
+
+  .drinks {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #menuRestaurant {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .food,
+  .drink,
+  h6 {
+    font-size: 1em;
+  }
+
+  .drinks {
+    font-size: 1.2em;
+  }
+}
+
+/* /// RESPONSIVITY PHOTOS /// */
+@media screen and (max-width: 800px) {
+  #carousRestaurant {
+    width: 80%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #carousRestaurant {
+    width: 90%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1100px) {
+  #cl {
+    margin-top: 4rem;
+  }
+
+  header {
+    margin-top: 5rem;
+  }
+
+  footer {
+    padding: 5%;
+    height: 35vh;
+  }
+}
