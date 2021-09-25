@@ -1,2 +1,3 @@
 # Ukazka_2
- easy web presentation of fiction brgr bar
+ Easy web presentation of fiction brgr bar.
+ Just portfolio web with responsivity.
